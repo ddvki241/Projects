@@ -8,12 +8,9 @@ int main() {
 
     cout << "Введіть число: ";
     cin >> number;
-
-    // Числа менше 2 не є простими
     if (number < 2) {
         isPrime = false;
     } else {
-        // Перебираємо можливі дільники від 2 до кореня числа
         for (int i = 2; i <= sqrt(number); i++) {
             if (number % i == 0) {
                 isPrime = false;
@@ -22,12 +19,10 @@ int main() {
         }
     }
 
-    // Виводимо результат
     if (isPrime) {
         cout << number << " є простим числом." << endl;
     } else {
         cout << number << " не є простим числом." << endl;
     }
-
     return 0;
 }
