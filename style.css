@@ -1,0 +1,24 @@
+ <html>
+    <head>
+    <style>
+ body {
+  background-color:	E9EFEC ;
+  color: 181C14 ;
+  font-size: 11px ;
+}
+td{
+ color: red;
+ font-weight:600;
+        }
+        .LINK {text-decoration: underline ;
+        text-transform: uppercase;}   
+        #li1{font-style: italic;
+        letter-spacing: 3px}
+body {
+  background-color:	E9EFEC ;
+  color: 181C14 ;
+  font-size: 11px ;
+}
+        </style>
+</head>
+</html>
